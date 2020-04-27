@@ -1,4 +1,4 @@
 librosa
 numpy
+python-sounddevice
 readchar
-sounddevice
