@@ -1,5 +1,7 @@
 
 import warnings
+warnings.filterwarnings("ignore")
+
 from collections import defaultdict
 from time import sleep, time
 
@@ -8,7 +10,6 @@ import numpy as np
 import readchar
 import sounddevice as sd
 
-warnings.filterwarnings("ignore")
 
 PEOPLES = ['camille', 'indira', 'nao']
 
